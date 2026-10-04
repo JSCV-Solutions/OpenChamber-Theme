@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "id": "jscv-solutions-dark",
+    "name": "JSCV Solutions",
+    "variant": "dark",
+    "description": "JSCV Solutions: gold actions, red selection, and neutral surfaces. Original OpenChamber status and syntax palettes.",
+    "version": "1.0.0",
+    "author": "JSCV Solutions",
+    "tags": [
+      "dark",
+      "jscv",
+      "brand"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "base": "#f0b100",
+      "foreground": "#000000",
+      "hover": "#ffc52e",
+      "active": "#d69e00",
+      "muted": "#f0b10080"
+    },
+    "surface": {
+      "background": "#111111",
+      "foreground": "#ffffff",
+      "muted": "#000000",
+      "mutedForeground": "#9ca3af",
+      "elevated": "#151515",
+      "elevatedForeground": "#ffffff",
+      "subtle": "#0b0b0b",
+      "overlay": "#00000080"
+    },
+    "interactive": {
+      "border": "#252525",
+      "selection": "#ff00002b",
+      "selectionForeground": "#ffffff",
+      "borderHover": "#525252",
+      "focusRing": "#f0b100",
+      "hover": "#ffffff12",
+      "active": "#ffffff1f"
+    },
+    "status": {
+      "error": "#da5b4a",
+      "warning": "#c67f13",
+      "success": "#76ad4f",
+      "info": "#479fe6"
+    },
+    "syntax": {
+      "base": {
+        "comment": "#728772",
+        "keyword": "#f0b100",
+        "string": "#d58373",
+        "number": "#279e93",
+        "function": "#78a952",
+        "variable": "#c69457",
+        "type": "#479cb1",
+        "operator": "#da6b6d"
+      },
+      "tokens": {
+        "commentDoc": "#687b68",
+        "stringEscape": "#dcd7c6",
+        "variableProperty": "#bda94a",
+        "variableLocal": "#201e1c",
+        "className": "#646fba",
+        "punctuation": "#908b7e"
+      },
+      "highlights": {
+        "diffAdded": "#4d934e",
+        "diffRemoved": "#cb7676",
+        "diffModified": "#5d99a9",
+        "lineNumber": "#3c3a37"
+      }
+    },
+    "pr": {
+      "open": "#93a233",
+      "blocked": "#da7c47",
+      "merged": "#9988e5"
+    },
+    "chat": {
+      "userMessageBackground": "#f0b10012",
+      "divider": "#252525"
+    },
+    "markdown": {
+      "link": "#5d99a9",
+      "linkHover": "#6ba7b8",
+      "inlineCode": "#f0b100",
+      "inlineCodeBackground": "#f0b10012",
+      "blockquote": "#8f8b81",
+      "blockquoteBorder": "#302e2b",
+      "listMarker": "#4d934e99"
+    },
+    "tools": {
+      "border": "#252525",
+      "icon": "#9ca3af",
+      "title": "#ffffff",
+      "description": "#9ca3af",
+      "edit": {
+        "addedBackground": "#4d934e25",
+        "removedBackground": "#cb767625",
+        "lineNumber": "#3c3a37"
+      }
+    }
+  },
+  "config": {
+    "transitions": {
+      "fast": "150ms ease",
+      "normal": "250ms ease",
+      "slow": "350ms ease"
+    }
+  }
+}
